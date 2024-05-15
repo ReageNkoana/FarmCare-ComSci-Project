@@ -1,3 +1,10 @@
-# Test
+# Video presentation link:
 
-![Create Event diagram](https://github.com/ReageNkoana/Test/assets/152162028/f35ad684-4847-468d-b6dd-75753736bef3)
+https://youtu.be/to2yhkrPdnc
+
+
+
+# Dependencies:
+SceneBuilder: Required for working on or running the JavaFX pages (.fxml).
+JavaFX .jar files: Ensure that the necessary .jar files for JavaFX are installed.
+Java 17 or higher: The project is compatible with Java 17 or higher. Recommended is java 17
