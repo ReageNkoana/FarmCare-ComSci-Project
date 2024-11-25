@@ -1,0 +1,51 @@
+UserID: 0
+Name: bobb
+Surname: bobsurname
+Email: b@gmail.com
+Farm Name: bb
+Password: 03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4
+
+UserID: 1
+Name: r
+Surname: rmalepe
+Email: r@r
+Farm Name: rr
+Password: a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3
+
+UserID: 2
+Name: rea
+Surname: nkoana
+Email: r@gmail.com
+Farm Name: reage chicken and dairy farm
+Password: a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3
+
+UserID: 3
+Name: test3
+Surname: tn
+Email: t@t
+Farm Name: tf
+Password: 03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4
+
+UserID: 4
+Name: t4
+Surname: t44
+Email: t4@t
+Farm Name: t4farm
+Password: 5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5
+
+UserID: 5
+Name: cgris
+Surname: dds
+Email: c@c
+Farm Name: dsf
+Password: a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3
+
+
+
+UserID: 6
+Name: Bob
+Surname: Nkoana
+Email: bob@gmail.com
+Farm Name: Bobs Farm
+Password: a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3
+

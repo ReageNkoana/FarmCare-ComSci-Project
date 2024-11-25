@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="748.0" prefWidth="1144.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ViewRecordController">
+   <left>
+      <AnchorPane prefHeight="818.0" prefWidth="322.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox layoutX="-1.0" layoutY="-80.0" prefHeight="748.0" prefWidth="323.0" style="-fx-background-color: lime;">
+               <children>
+                  <Label alignment="CENTER" prefHeight="114.0" prefWidth="323.0" text="Welcome" textAlignment="CENTER">
+                     <font>
+                        <Font name="Bauhaus 93" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblDashboard" alignment="CENTER" onMouseClicked="#handleHome" prefHeight="63.0" prefWidth="323.0" text="Dashboard">
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="153.0" fitWidth="158.0" layoutX="92.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../data/Pics/user%20pic.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <VBox prefHeight="267.0" prefWidth="323.0">
+                     <children>
+                        <Button id="btnViewRecords" fx:id="btnViewRecords" mnemonicParsing="false" onAction="#handleViewFarmRecords" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: Green;" text="View Farm Records" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Black" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button id="btnAddRecords" fx:id="btnAddRecords" mnemonicParsing="false" onAction="#handleAddRecord" prefHeight="62.0" prefWidth="323.0" style="-fx-background-color: Transparent;" text="Add Records" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Black" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button id="btnReports" fx:id="btnReports" mnemonicParsing="false" onAction="#handleReports" prefHeight="64.0" prefWidth="323.0" style="-fx-background-color: Transparent;" text="Reports" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Black" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button id="btnAccountInformation" fx:id="btnAccountInformation" mnemonicParsing="false" onAction="#handleAccountInfo" prefHeight="71.0" prefWidth="350.0" style="-fx-background-color: Transparent;" text="Account Information" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Black" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="103.0" prefWidth="323.0">
+                     <children>
+                        <Button fx:id="btnLogout" mnemonicParsing="false" onAction="#Logout" prefHeight="118.0" prefWidth="323.0" style="-fx-background-color: Transparent;">
+                           <font>
+                              <Font name="Arial Black" size="18.0" />
+                           </font>
+                           <graphic>
+                              <HBox prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <Pane prefHeight="91.0" prefWidth="95.0">
+                                       <children>
+                                          <ImageView fitHeight="55.0" fitWidth="49.0" layoutX="23.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../data/Pics/user%20pic.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </Pane>
+                                    <Label prefHeight="91.0" prefWidth="208.0" text="Logout">
+                                       <font>
+                                          <Font name="Arial Black" size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </left>
+   <top>
+      <AnchorPane prefHeight="81.0" prefWidth="821.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="590.0" layoutY="21.0" prefHeight="54.0" prefWidth="323.0" text="View Records">
+               <font>
+                  <Font name="Arial Black" size="36.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="tblViewRecords" layoutX="74.0" layoutY="95.0" prefHeight="412.0" prefWidth="712.0">
+              <columns>
+                <TableColumn fx:id="colAnimalID" prefWidth="75.0" text="Animal ID" />
+                <TableColumn fx:id="colName" prefWidth="188.0" text="Name" />
+                  <TableColumn fx:id="colType" prefWidth="141.0" text="Type" />
+                  <TableColumn fx:id="colBreed" minWidth="0.0" prefWidth="125.0" text="Breed" />
+                  <TableColumn fx:id="colDOB" minWidth="0.0" prefWidth="82.0" text="DOB" />
+                  <TableColumn fx:id="colVaccinated" prefWidth="118.0" text="Vaccinated" />
+              </columns>
+            </TableView>
+            <Button fx:id="btnFilterType" layoutX="266.0" layoutY="572.0" mnemonicParsing="false" onAction="#handleFilterByType" prefHeight="25.0" prefWidth="120.0" text="Filter animal type" />
+            <TextField fx:id="txtFilterType" layoutX="251.0" layoutY="540.0" />
+            <Button fx:id="btnAllRecords" layoutX="301.0" layoutY="41.0" mnemonicParsing="false" onAction="#handleAllrecords" prefHeight="40.0" prefWidth="128.0" text="View All Records" />
+            <Button fx:id="btnVaccinated" layoutX="426.0" layoutY="41.0" mnemonicParsing="false" onAction="#handleVaccinatedRecords" prefHeight="40.0" prefWidth="128.0" text="View Vaccinated" />
+            <Button fx:id="btnUnvaccinated" layoutX="554.0" layoutY="41.0" mnemonicParsing="false" onAction="#handleUnVaccinatedRecords" prefHeight="40.0" prefWidth="128.0" text="View Unvaccinated" />
+            <TextField fx:id="txtFilterName" layoutX="74.0" layoutY="540.0" />
+            <Button fx:id="btnFilterName" layoutX="89.0" layoutY="572.0" mnemonicParsing="false" onAction="#handleFilterAnimalName" prefHeight="25.0" prefWidth="120.0" text="Filter animal name" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

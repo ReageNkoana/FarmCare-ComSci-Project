@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="748.0" prefWidth="1144.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.DashboardController">
+   <left>
+      <AnchorPane prefHeight="818.0" prefWidth="322.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox layoutX="-1.0" layoutY="-80.0" prefHeight="748.0" prefWidth="323.0" style="-fx-background-color: lime;">
+               <children>
+                  <Label alignment="CENTER" prefHeight="114.0" prefWidth="323.0" text="Welcome" textAlignment="CENTER">
+                     <font>
+                        <Font name="Bauhaus 93" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblDashboard" alignment="CENTER" prefHeight="63.0" prefWidth="323.0" text="Dashboard">
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="153.0" fitWidth="158.0" layoutX="92.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../data/Pics/user%20pic.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <VBox prefHeight="267.0" prefWidth="323.0">
+                     <children>
+                        <Button fx:id="btnViewRecords" mnemonicParsing="false" onAction="#handleViewFarmRecords" prefHeight="66.0" prefWidth="323.0" style="-fx-background-color: Transparent;" text="View Farm Records" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Black" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnAddRecords" mnemonicParsing="false" onAction="#handleAddRecord" prefHeight="62.0" prefWidth="323.0" style="-fx-background-color: Transparent;" text="Add Records" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Black" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnReports" mnemonicParsing="false" onAction="#handleReports" prefHeight="64.0" prefWidth="323.0" style="-fx-background-color: Transparent;" text="Reports" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Black" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnAccountInformation" mnemonicParsing="false" onAction="#handleAccountInfo" prefHeight="71.0" prefWidth="350.0" style="-fx-background-color: Transparent;" text="Account Information" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Black" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="103.0" prefWidth="323.0">
+                     <children>
+                        <Button fx:id="btnLogout" mnemonicParsing="false" onAction="#Logout" prefHeight="118.0" prefWidth="323.0" style="-fx-background-color: Transparent;">
+                           <font>
+                              <Font name="Arial Black" size="18.0" />
+                           </font>
+                           <graphic>
+                              <HBox prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <Pane prefHeight="91.0" prefWidth="95.0">
+                                       <children>
+                                          <ImageView fitHeight="55.0" fitWidth="49.0" layoutX="23.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../data/Pics/user%20pic.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </Pane>
+                                    <Label prefHeight="91.0" prefWidth="208.0" text="Logout">
+                                       <font>
+                                          <Font name="Arial Black" size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </left>
+   <top>
+      <AnchorPane prefHeight="81.0" prefWidth="1144.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="701.0" layoutY="14.0" text="Home">
+               <font>
+                  <Font name="Arial Black" size="36.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </top>
+   <right>
+      <AnchorPane prefHeight="740.0" prefWidth="822.0" style="-fx-background-color: Transparent;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView blendMode="MULTIPLY" fitHeight="593.0" fitWidth="575.0" layoutX="45.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true" style="-fx-background-color: Transparent;">
+               <image>
+                  <Image url="@../../data/Pics/vaccine2.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="51.0" layoutY="-7.0" prefHeight="66.0" prefWidth="751.0" text="Welcome, You may start tracking your farm animals vaccinations">
+               <font>
+                  <Font name="Bauhaus 93" size="24.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </right>
+</BorderPane>

@@ -1,0 +1,104 @@
+UserID: 2
+AnimalID: 1
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Betty,Cow,Bull,02/02/2013,Yes', receiver='2', data=2, timestamp=1715643563237}], hash='63aba9175b3b9ca5bc0546ebff5ff5dcfcce434f036fd648d12c933e5c1a148b', nonce=3105402}
+
+UserID: 2
+AnimalID: 2
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Armstrong,chicken,black chicken,09/09/2009,No', receiver='2', data=2, timestamp=1715643867339}], hash='ab554f437facbcd9c29f5d6b107784fce898229c3dee3476e9123391d0a00fda', nonce=3105402}
+
+UserID: 2
+AnimalID: 3
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Bobbo,pig,swine,02/03/2020,Yes', receiver='2', data=2, timestamp=1715643928648}], hash='208ed758aa1e9573d597c20eee30c43dbeadc286f9162ea9f0a9bd1e83f3a18b', nonce=3105402}
+
+UserID: 3
+AnimalID: 1
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Ross,Dog,GermanSherpard,02/02/2015,Yes', receiver='3', data=3, timestamp=1715644030416}], hash='87d34cbf44b3c0fabeffb72f461c9d43d5042917d9d24a5923c085afb0ac30df', nonce=3123053}
+
+UserID: 1
+AnimalID: 1
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Greece,Goose,Lake Swan,07/07/2007,Yes', receiver='1', data=1, timestamp=1715678376273}], hash='745fc5d4018b28b53d1f7cac9191b89182eb72c66b955ee3a6a720d4b7fa19eb', nonce=0}
+
+UserID: 5
+AnimalID: 1
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='johnny,dog,bulldog,09/09/2007,Yes', receiver='5', data=5, timestamp=1715682763169}], hash='60bfb18e2ce2fc93e85f237ecba21a2cbcbd927634c9ad7c9d4d43682285624c', nonce=3181397}
+
+UserID: 2
+AnimalID: 4
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Kanine,dog,boerwool,08/08/2008,No', receiver='2', data=2, timestamp=1715683759018}], hash='b25bc0ddb42ced2c76ed4a420b240f22019f17c1aaa14913668dc84d7df548f4', nonce=3105402}
+
+UserID: 2
+AnimalID: 5
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Toby,parrot,mcaw,04/02/2013,No', receiver='2', data=2, timestamp=1715686882125}], hash='50f580558f8b532f324140074366213292af00672e9dc5732d4c510947cb7621', nonce=3105402}
+
+UserID: 2
+AnimalID: 6
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Mcguire,dog,golden retriever,09/08/2017,No', receiver='2', data=2, timestamp=1715686937478}], hash='e301be6cb45a72ac6572075b7af2d1bf9bb87aefbc7320f7e05eb9531ef1e262', nonce=3105402}
+
+UserID: 2
+AnimalID: 7
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Bob,Dog,german sherperd,07/07/2023,No', receiver='2', data=2, timestamp=1715687068068}], hash='62d5cb6c0945d61db174e46f54f4a074680d50e0e6d35bd1968edd98eddbc20c', nonce=3105402}
+
+UserID: 2
+AnimalID: 8
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Michele,ChIckeN,blackchicken,09/09/2028,No', receiver='2', data=2, timestamp=1715687339677}], hash='6e8c6b6f85d3848e004045ab3087e8ff89a576bc8affd8a51bef52d000be8b60', nonce=3105402}
+
+UserID: 2
+AnimalID: 9
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Piglet,pig,swine,04/09/2020,No', receiver='2', data=2, timestamp=1715687699276}], hash='93b5c6ada14b80aabc2395d9ba7ac9c5a139d927b9ebb60e749f00dc30a7869b', nonce=3105402}
+
+UserID: 2
+AnimalID: 10
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Joyce,cow,dairy cow,09/09/2009,Yes', receiver='2', data=2, timestamp=1715689913359}], hash='e3dee9903ec410a55a255b3d5faa7d15887dbe08c3e2018642f781a5f811f2e8', nonce=3105402}
+
+UserID: 2
+AnimalID: 11
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Surprise,dog,boerboel,01/04/2027,Yes', receiver='2', data=2, timestamp=1715700136241}], hash='7d8078143fc79af57b2fb18a46ef7c0f923f0d10e83151d8ac2c2d205de695db', nonce=3105402}
+
+UserID: 2
+AnimalID: 12
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Toski,dog,golden ritriever,08/09/2020,Yes', receiver='2', data=2, timestamp=1715700175079}], hash='c7cbb4ae43d37dd19c25bfc9b1ce419867417ec012593ae4886bd0527d2aff46', nonce=3105402}
+
+UserID: 2
+AnimalID: 13
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Snoopy,dog,grey hound,07/06/2011,Yes', receiver='2', data=2, timestamp=1715700266863}], hash='f01ee8fbf1ea396f7141ddca9c6c381ad5be765ec1ac43375a3dbd6eb2466ac7', nonce=3105402}
+
+UserID: 2
+AnimalID: 14
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Geel,goose,white swan,01/02/2003,Yes', receiver='2', data=2, timestamp=1715700309847}], hash='ce351015b06865fc6987546efc3f39064a9825fbc6507a24b17467dc97594e41', nonce=3105402}
+
+UserID: 2
+AnimalID: 15
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Jack,dog,jack russel,01/11/2003,Yes', receiver='2', data=2, timestamp=1715718772623}], hash='e8a0cc8a9a1ea958c14a6ebab46509ead5d68ccbad6775039512b1cfe6fc3454', nonce=3105402}
+
+UserID: 2
+AnimalID: 16
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Peppa,pig,swine,07/06/2002,No', receiver='2', data=2, timestamp=1715718855438}], hash='2dbd66d7eeda5bb38a756c9235c3f6c59c891e1a50ed344869f15be48dbc6eca', nonce=3105402}
+UserID: 6
+AnimalID: 1
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Snoopy,dog,german sherpard,09/09/2009,Yes', receiver='6', data=6, timestamp=1715777140971}], hash='2f50bf5fab1c0857c94f08b45e4c74bb31165c094bb30bb70db7ab492105ffa8', nonce=3539}
+
+UserID: 6
+AnimalID: 2
+Block{previousHash='0', transactions=[], hash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', nonce=0}
+Block{previousHash='32369d15916932bd1ade51c0cae9f32f5ded2cccd29d81d7eec27066c813e39d', transactions=[Transaction{sender='Jessy,cow,bull,09/06/2008,No', receiver='6', data=6, timestamp=1715777209473}], hash='0679bc5fd2f752b8d4196ad1cfbfa30d5bbc9f0ff1672cfaa78559b39ddce1e4', nonce=3539}
+
